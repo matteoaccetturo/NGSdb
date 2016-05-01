@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    
+   
+    
+    <head>
+        <title>Add a new patient in the db</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+    </head>
+   
+    
+   
+    <body>
+         <style >
+            input[type="text"] {
+ width: 10%;
+   background-color: whitesmoke;
+    color: graytext;
+    padding: 2px 20px;
+    margin: 4px 0;
+    border: 1px solid;
+    border-radius: 6px;
+    cursor: pointer;
+    
+ }
+ 
+input[type="submit"] {
+  background: transparent;
+  border: 2px solid blue;
+  color: blue;
+  width: 100px;
+  padding: 1
+}
+/*form  { display: table;      }
+br     { display: table-row;  }
+label { display: table-cell; }
+input { display: table-cell; float: right}*/
+
+    </style>
+    
+    <h1>Insert a new patient in the db</h1>  
+        <form enctype="multipart/form-data" action="add.php" method="POST" >
+            Sample: <input type="text" name="Sample"><br>
+            Name: <input type="text" name="Name"><br>
+            E-mail: <input type="text" name = "Email"><br>
+            Phone: <input type="text" name = "Phone"><br>
+            Phenotype: <input type="text" name="Phenotype"><br>
+            Triggers: <input type="text" name="Triggers"><br>
+            Early onset: <input type="text" name="Early_onset"><br>
+            Recurrence: <input type="text" name="Recurrence"><br>
+            Response to therapy: <input type="text" name="Response_to_therapy"><br>
+            Cardiological involvement: <input type="text" name="Cardiological_involvement"><br>
+            Gastrointestinal involvement: <input type="text" name="Gastrointestinal_involvement"><br>
+            Neurological involvement: <input type="text" name="Neurological_involvement"><br>
+            Overlapping w complement-related path: <input type="text" name="Overlapping_w_complement_related_path"><br>
+            Renal outcome: <input type="text" name="Renal_outcome"><br>
+            Aggressive phenotype: <input type="text" name="Aggressive_phenotype"><br>
+            aHUS suspect confirmation: <input type="text" name="aHUS_suspect_confirmation"><br>
+            Urinary anomalies: <input type="text" name="Urinary_anomalies"><br>
+            Biopsy pattern: <input type="text" name="Biopsy_pattern"><br>
+            Attachment: <input type="file" name="Attachment"><br>
+            <p></p>
+            <input type="submit" name="up" value="Add">
+        </form>
+    </body>
+</html>
