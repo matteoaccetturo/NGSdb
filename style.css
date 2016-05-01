@@ -1,0 +1,33 @@
+body {
+	  background-color: whitesmoke;
+          background-image: url("images/butterfly.gif");
+          //background-repeat: repeat-y;
+          //Background-repeat: repeat-x;
+          //background-repeat: repeat;
+          background-repeat: no-repeat;
+         background-attachment: fixed;
+          //background-attachment: scroll;
+          background-position: right bottom;
+	}
+        h1 {
+		color: #990000;
+		background-color: #FC9804;
+	}
+        h1 {font-family: arial, verdana, sans-serif;}
+	h2 {font-family: "Times New Roman", serif; font-style: italic;}
+        h3 {font-family: courier, courier new, monospace;}
+
+
+
+
+
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 8-gen-2016, 16.53.50
+    Author     : Matteo
+*/
+
