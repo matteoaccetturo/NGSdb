@@ -40,7 +40,7 @@ position:relative;
 .bottom{
 position:absolute;
 bottom:0px;
-left:0px;
+left:10px;
 }
         </style>
     </body>
