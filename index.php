@@ -27,5 +27,22 @@ and open the template in the editor.
         <p><a href="cerca_genotipi.php?id=<?echo $id?>"><?php echo "Search for genotypes"?></a></p>
         <p><a href="viewData.php?id=<?echo $id?>"><?php echo "View Data"?></a></p>
         <p><a href="add.php?id=<?echo $id?>"><?php echo "Insert a new patient in the db"?></a></p>
+        <p><a href="import.html?id=<?echo $id?>"><?php echo "Import data in the db"?></a></p>
+        
+        <div id="box"><p class="bottom">Designed and developed by Matteo Accetturo</p></div>
+
+        <style type="text/css">
+        box{
+width:0px;
+height:0px;
+position:relative;
+}
+.bottom{
+position:absolute;
+bottom:0px;
+left:10px;
+}
+        </style>
     </body>
+    
 </html>
