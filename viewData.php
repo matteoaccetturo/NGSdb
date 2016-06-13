@@ -43,10 +43,19 @@ if (!$result1) {
  //Echo "<a href=http://localhost/SEUdb/images/".$info['Attachment'] .">".$info['Attachment'] ."</a><br>";
  Echo "<a href=images/".$info['Attachment'] .">".$info['Attachment'] ."</a><br>";
  Echo "<b>Sample:</b> ".$info['Sample'] . "<br> ";
- Echo "<b>Name:</b> ".$info['Name'] . "<br> ";
- Echo "<b>Email:</b> ".$info['Email'] . " <br>";
- Echo "<b>Phone:</b> ".$info['Phone'] . " <br>";
+ Echo "<b>Phenotype:</b> ".$info['Phenotype'] . "<br> ";
+ Echo "<b>Triggers:</b> ".$info['Triggers'] . " <br>";
+ Echo "<b>Early onset:</b> ".$info['Early onset'] . " <br>";
+ Echo "<b>Recurrence:</b> ".$info['Recurrence'] . " <br>";
+ Echo "<b>Response to therapy:</b> ".$info['Response to therapy'] . " <br>";
+ Echo "<b>Cardiological involvement:</b> ".$info['Cardiological involvement'] . " <br>";
+ Echo "<b>Neurological involvement:</b> ".$info['Neurological involvement'] . " <br>";
+ Echo "<b>Overlapping with other complement-related pathologies:</b> ".$info['Overlapping w complement-related path'] . " <br>";
+ Echo "<b>Renal outcome:</b> ".$info['Renal outcome'] . " <br>";
+ Echo "<b>Aggressive phenotype:</b> ".$info['Aggressive phenotype'] . " <br>";
  Echo "<b>aHUS suspect confirmation:</b> ".$info['aHUS suspect confirmation'] . " <br>";
+ Echo "<b>Urinary anomalies:</b> ".$info['Urinary anomalies'] . " <br>";
+ Echo "<b>Biopsy pattern:</b> ".$info['Biopsy pattern'] . " <br>";
  Echo "<b>Mutations:</b> ";?>
 
 <meta http-equiv="content-type" content="text/html; charset=windows-1252">
