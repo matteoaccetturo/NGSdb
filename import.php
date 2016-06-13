@@ -6,7 +6,8 @@ include 'access.php';
             exit();
 }
 if(isset($_POST['import'])){
-$path    = 'data/';
+$path    = '/Users/imac27/Documents/data/';
+//$path    = 'data/';
 $files = scandir($path);
 
 //echo $files[2];
